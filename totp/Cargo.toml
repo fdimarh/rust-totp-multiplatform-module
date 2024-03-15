@@ -1,0 +1,12 @@
+[package]
+name = "totp_multiplatform_module"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dimar <fajar.dimar@ngecamp.co.id>"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+totp-rs = "5.5.1"
+
