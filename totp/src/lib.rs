@@ -1,6 +1,9 @@
 pub mod totp {
     use totp_rs::{Algorithm, TOTP, Secret};
 
+    /// The Time-Based One-Time Password (TOTP) algorithm is defined in the RFC 6238 standard.
+    /// It's an extension of the HMAC-based One-Time Password (HOTP) algorithm, with the main difference being that it uses a timestamp rather than a counter.
+    /// This makes TOTP a more suitable choice for short-lived OTPs which are used in two-factor authentication systems.
     /// Generates a One-Time Password (OTP) using the Time-Based One-Time Password (TOTP) algorithm.
     ///
     /// # Parameters
