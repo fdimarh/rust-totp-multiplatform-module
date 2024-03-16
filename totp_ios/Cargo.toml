@@ -1,0 +1,15 @@
+[package]
+name = "totp_ios"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dimar <fajar.dimar@ngecamp.co.id>"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+totp_multiplatform_module = { path = "../totp" }
+
+[lib]
+name = "totp_ios"
+crate-type = ["staticlib", "cdylib"]
