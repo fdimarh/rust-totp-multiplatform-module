@@ -6,7 +6,7 @@ use jni::objects::{JClass, JString};
 use totp_multiplatform_module::totp;
 
 #[no_mangle]
-pub extern "system" fn Java_id_co_ngecamp_TOTP_getPinNumber<'local>(
+pub extern "system" fn Java_id_co_ngecamp_totp_TOTP_getPinNumber<'local>(
     mut env: JNIEnv<'local>,
     _class: JClass<'local>,
     otp_digit: i32,
