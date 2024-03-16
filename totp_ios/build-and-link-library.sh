@@ -29,3 +29,5 @@ if [ ! -f TOTP.xcframework ]; then
     -headers ./include/ \
     -output TOTP.xcframework
 fi
+
+rm -rf include libs
