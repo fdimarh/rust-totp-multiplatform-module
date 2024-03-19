@@ -165,8 +165,7 @@ android {
 }
 
 rustAndroidModule {
-    module = 'app'
-    targets = ["arm", "arm64", "x86", "x86_64"]
+    module = "../../totp_android"
     libname = "totp_android"
     targets = ["arm", "x86", "arm64", "x86_64"]
     pythonCommand = "python3"
